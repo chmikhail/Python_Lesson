@@ -1,9 +1,8 @@
 number = int(input("Введите число: "))
-a = number
-b = []
-while a > 0:
-  b.append(a % 10)
-  a = a // 10
-b = b[::-1] # так можно развернуть, если бы нам был важен порядок
-result=max(b)
-print(result)
+lost = number % 10
+while number > 0:
+    value = number % 10
+    if value > lost:
+        lost = value
+    number = number // 10
+print(lost)
