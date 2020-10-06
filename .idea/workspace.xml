@@ -47,7 +47,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Task02">
+  <component name="RunManager" selected="Python.Task04">
     <configuration name="Task01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Lesson" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Task02" />
         <item itemvalue="Python.Task04" />
+        <item itemvalue="Python.Task02" />
         <item itemvalue="Python.Task03" />
         <item itemvalue="Python.Task01" />
         <item itemvalue="Python.test" />
@@ -184,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601960015607">
