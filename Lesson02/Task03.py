@@ -5,5 +5,5 @@ index = (mount_in % 12) // 3
 season_spisok=season_list[index]
 season_slovar=season_dict.get(index)
 print(f"Списком:",season_spisok)
-print(f"Списком:",season_slovar)
+print(f"Словарем:",season_slovar)
 
