@@ -2,10 +2,11 @@
 # Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
 
 def division(x, y):
-    if y == 0:
-        return print("Делить на ноль нельзя")
-    else:
+    try:
         return x / y
+    except ZeroDivisionError:
+        return "Делить на ноль нельзя"
+
 
 
 one_input = int(input("Введите первое число: "))
