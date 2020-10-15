@@ -1,7 +1,8 @@
 # 3. Для чисел в пределах от 20 до 240 найти числа, кратные 20 или 21. Необходимо решить задание в одну строку.
 # Подсказка: использовать функцию range() и генератор.
-
-gen_list_20=[x for x in range(19,241) if x%20 == 0]
+# кратно 20
+gen_list_20 = [x for x in range(19, 241) if x % 20 == 0]
 print(gen_list_20)
-gen_list_21=[x for x in range(19,241) if x%21 == 0]
+# кратно 21
+gen_list_21 = [x for x in range(19, 241) if x % 21 == 0]
 print(gen_list_21)
