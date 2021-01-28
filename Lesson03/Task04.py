@@ -20,7 +20,7 @@ def my_func_task(x, y):
 
 
 x = int(input("Число: "))
-y = int(input("Степень: "))
+y = int(input("Степень: "))/////
 
 print(my_func(x, y))
 print(my_func_task(x, y))
